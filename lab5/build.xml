@@ -20,7 +20,7 @@
 				<pathelement location="${basedir}/bin"/>
 			</classpath>
 			<formatter type="xml"/> 
-			<!-- files xml --->
+			<!-- files xml -->
 			<test name="com.thales.OrangeTest" outfile="result"/> 
 			<test name="com.thales.PanierTest" outfile="result2"/>
 			
