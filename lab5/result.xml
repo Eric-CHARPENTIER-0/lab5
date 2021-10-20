@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MW14" name="com.thales.OrangeTest" skipped="0" tests="1" time="0.045" timestamp="2021-10-20T12:12:34">
+  <properties>
+    <property name="ant.project.invoked-targets" value="all" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin" />
+    <property name="java.vm.version" value="25.152-b16" />
+    <property name="ant.library.dir" value="C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.7 compiled on September 1 2019" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.script" value="" />
+    <property name="user.country" value="FR" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="C:\Users\orsys\Documents\FormationAutoTests\git\lab5\lab5" />
+    <property name="java.runtime.version" value="1.8.0_152-b16" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="basedir" value="C:\Users\orsys\Documents\FormationAutoTests\git\lab5\lab5" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="java.io.tmpdir" value="C:\Users\orsys\AppData\Local\Temp\" />
+    <property name="ant.core.lib" value="C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="os.name" value="Windows 10" />
+    <property name="ant.home" value="C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324" />
+    <property name="ant.file.Lab4" value="C:\Users\orsys\Documents\FormationAutoTests\git\lab5\lab5\build.xml" />
+    <property name="ant.project.name" value="Lab4" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.library.path" value="C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\anaconda3-5.2.0;C:\anaconda3-5.2.0\Library\mingw-w64\bin;C:\anaconda3-5.2.0\Library\usr\bin;C:\anaconda3-5.2.0\Library\bin;C:\anaconda3-5.2.0\Scripts;C:\opt\Python36-32\Scripts\;C:\opt\Python36-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\opt\apache-ant-1.9.10\bin;C:\opt\nodejs\node_modules\npm;C:\Program Files\Git\cmd;C:\opt\Ruby25-x64\bin;C:\Program Files\GitHubDesktop\bin;C:\Program Files\atom\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\opt\glassfish5\bin;C:\Program Files\jEdit;C:\opt\apache-jmeter-4.0\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\opt\play-java-starter-example\sbt-dist\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Rational\common;C:\opt\apache-maven-3.5.3\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\opt\MinGW\bin;C:\Windows\System32\OpenSSH\;C:\opt\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\TortoiseSVN\bin;C:\Users\orsys\AppData\Local\Microsoft\WindowsApps;C:\Users\orsys\AppData\Local\Microsoft\WindowsApps;C:\Users\orsys\AppData\Roaming\npm;C:\Users\orsys\Documents\FormationAutoTests\outils\sonar-scanner-4.2.0.1873-windows\bin;C:\Program Files\Java\jdk-11.0.8\bin;;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse;;.;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\configuration\org.eclipse.osgi\381\0\.cp" />
+    <property name="java.class.version" value="52.0" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="10.0" />
+    <property name="ant.file" value="C:\Users\orsys\Documents\FormationAutoTests\git\lab5\lab5\build.xml" />
+    <property name="user.home" value="C:\Users\orsys" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="user.name" value="orsys" />
+    <property name="java.class.path" value="C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-antlr.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-bcel.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-bsf.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-log4j.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-oro.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-regexp.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-resolver.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-xalan2.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-commons-logging.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-commons-net.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-imageio.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-jai.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-javamail.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-jdepend.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-jmf.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-jsch.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-junit.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-junit4.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-junitlauncher.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-launcher.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-netrexx.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-swing.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-testutil.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-xz.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\configuration\org.eclipse.osgi\68\0\.cp\lib\antdebug.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\configuration\org.eclipse.osgi\68\0\.cp\lib\remote.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\configuration\org.eclipse.osgi\69\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_152\lib\tools.jar;C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_152\jre" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1634731952159 -Declipse.connect.port=49708 -Dant.home=C:\Users\orsys\Documents\FormationAutoTests\outils\eclipse\plugins\org.apache.ant_1.10.7.v20190926-0324 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\orsys\Documents\FormationAutoTests\git\lab5\lab5\build.xml" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="user.language" value="fr" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file.type.Lab4" value="file" />
+    <property name="java.version" value="1.8.0_152" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.desktop" value="windows" />
+    <property name="sun.cpu.isalist" value="amd64" />
+  </properties>
+  <testcase classname="com.thales.OrangeTest" name="testEqualsOrangeOrange" time="0.01" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
