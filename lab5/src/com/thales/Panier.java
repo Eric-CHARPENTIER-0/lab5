@@ -61,12 +61,14 @@ public class Panier {
 	}
 
 	public void boycottOrigine(final String origine) {
-		Iterator<Orange> iter = panier.iterator();
-		Orange o;
-		while (iter.hasNext()) {
-			o = iter.next();
-			if (o.getOrigine() == origine) {
-				iter.remove();
+		if (origine != null) {
+			Orange o;
+		    final Iterator<Orange> iter = panier.iterator();
+		    while (iter.hasNext()) {
+			    o = iter.next();
+			    if (origine.contentEquals(o.getOrigine())) {
+				    iter.remove();
+			    }
 			}
 		}
 	}
