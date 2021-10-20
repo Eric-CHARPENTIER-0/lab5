@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Lab4" default="all">
+
+	<target name="clean">
+		<delete dir="bin"/>
+	</target>
+
+	<target name="compile">
+		<mkdir dir="bin"/>
+		<javac destdir="bin"
+		       srcdir="src;tests"
+		       classpath="${basedir}/lib/junit.jar"/>
+	</target>
+
+	<target name="tests" depends="compile">
+		<junit>
+			<classpath>
+				<pathelement location="${basedir}/lib/junit.jar"/>
+				<pathelement location="${basedir}/lib/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+				<pathelement location="${basedir}/bin"/>
+			</classpath>
+			<formatter type="xml"/> 
+			<test name="com.thales.OrangeTest" outfile="result"/> 
+			<test name="com.thales.PanierTest" outfile="result2"/>
+			
+		</junit>
+		<junitreport todir="${basedir}">
+			<fileset dir="${basedir}">
+				<include name="result*.xml"/>
+			</fileset>
+		</junitreport>
+	</target>
+	
+	<target name="all" depends="clean, tests"/>
+</project>
