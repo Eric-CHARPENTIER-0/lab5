@@ -35,11 +35,10 @@ public class Orange {
 
 	public static boolean equals(final Orange o1, final Orange o2) {
 		boolean resultat = false;
-		if ((o1 != null) && (o2 != null)) {
-		    if (o1.getOrigine().equals(o2.getOrigine())
-		        && (o1.getPrix() == o2.getPrix())) {
-			    resultat=true;
-		    }
+		if ((o1 != null) && (o2 != null)
+		    && o1.getOrigine().equals(o2.getOrigine())
+		    && (o1.getPrix() == o2.getPrix())) {
+			resultat = true;
 		}
 		return resultat;
 	}

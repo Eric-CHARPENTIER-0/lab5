@@ -6,32 +6,32 @@ import java.util.Iterator;
 public class Panier {
 
 	final int taille; 
-	final ArrayList <Orange> panier;
+	final ArrayList <Orange> contenu;
 	
 	public Panier(final int uneTaille) {
 		taille = uneTaille;
-		panier = new ArrayList<Orange>(taille);
+		contenu = new ArrayList<>(taille);
 	}
 	
-	public int getPanier() {
-		return panier.size();
+	public int getContenu() {
+		return contenu.size();
 	}
 
 	public int taillePanier() {
-		return panier.size();
+		return contenu.size();
 	}
 
 	public boolean estPlein() {
-		return (panier.size() == taille);
+		return (contenu.size() == taille);
 	}
 
 	public boolean estVide() {
-		return panier.isEmpty();
+		return contenu.isEmpty();
 	}
 
 	public String toString() {
 		final StringBuilder buf = new StringBuilder();
-		for (Orange i : panier) {
+		for (Orange i : contenu) {
 			buf.append(i.getOrigine())
 			.append(" | ")
 			.append(i.getPrix())
@@ -40,21 +40,21 @@ public class Panier {
 		return buf.toString();
 	}
 
-	public void ajoute(final Orange o) throws RuntimeException {
-		if (panier.size() < taille) {
-			panier.add(o);
+	public void ajoute(final Orange o) {
+		if (contenu.size() < taille) {
+			contenu.add(o);
 		} else {
 			throw new RuntimeException("Le panier est plein");
 		}
 	}
 
 	public void retire() {
-		panier.remove(panier.size() - 1);
+		contenu.remove(contenu.size() - 1);
 	}
 
 	public double getPrix() {
 		double resultat = 0;
-		for (Orange i : panier) {
+		for (Orange i : contenu) {
 			resultat += i.getPrix();
 		} 
 		return resultat;
@@ -63,7 +63,7 @@ public class Panier {
 	public void boycottOrigine(final String origine) {
 		if (origine != null) {
 			Orange o;
-		    final Iterator<Orange> iter = panier.iterator();
+		    final Iterator<Orange> iter = contenu.iterator();
 		    while (iter.hasNext()) {
 			    o = iter.next();
 			    if (origine.contentEquals(o.getOrigine())) {
@@ -76,13 +76,13 @@ public class Panier {
 	public static boolean equals(final Panier p1, final Panier p2) {
 		boolean resultat = false;
 		if ((p1 != null) && (p2 != null)) {
-			final int count = p1.panier.size();
-			if (count ==  p2.panier.size()) {
+			final int count = p1.contenu.size();
+			if (count ==  p2.contenu.size()) {
 				// duplicate p2 content
-				final ArrayList<Orange> content = new ArrayList<Orange>(p2.panier);
+				final ArrayList<Orange> content = new ArrayList<>(p2.contenu);
 				Orange o2;
 				Iterator<Orange> iter;
-				for (Orange o1 : p1.panier) {
+				for (Orange o1 : p1.contenu) {
 					iter = content.iterator();
 					while (iter.hasNext()) {
 						o2 = iter.next();
