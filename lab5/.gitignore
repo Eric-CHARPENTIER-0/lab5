@@ -1,1 +1,3 @@
 /bin/
+result*.xml
+TESTS-TestSuites.xml
