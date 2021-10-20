@@ -14,7 +14,7 @@ public class PanierTest {
 		p1.ajoute(new Orange("Floride", 0.90));
 		assertFalse(Panier.equals(p1,  null));
 		assertFalse(Panier.equals(null,  p1));
-		// TODO assertTrue(Panier.equals(p1,  p1));
+		assertTrue(Panier.equals(p1,  p1));
 		Panier p2 = new Panier(3);
 		p2.ajoute(new Orange("France", 0.80));
 		p2.ajoute(new Orange("Espagne", 0.80));
@@ -22,8 +22,8 @@ public class PanierTest {
 		assertTrue(Panier.equals(p1,  p2));
 		assertTrue(Panier.equals(p2,  p1));
 		p2.boycottOrigine("Floride");
-		// TODO assertFalse(Panier.equals(p1,  p2));
-		// TODO assertFalse(Panier.equals(p2,  p1));
+		assertFalse(Panier.equals(p1,  p2));
+		assertFalse(Panier.equals(p2,  p1));
 		p1.boycottOrigine("Floride");
 		assertTrue(Panier.equals(p1,  p2));
 		assertTrue(Panier.equals(p2,  p1));

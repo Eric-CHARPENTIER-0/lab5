@@ -76,20 +76,24 @@ public class Panier {
 	public static boolean equals(final Panier p1, final Panier p2) {
 		boolean resultat = false;
 		if ((p1 != null) && (p2 != null)) {
-			for (int i = 0; i < p1.panier.size(); i++) {
-				for (int k = 0; k < p2.panier.size(); k++) {
-					Orange it = new Orange("", 0);
-					if (p1.panier.get(i).getOrigine().equals(p2.panier.get(k).getOrigine())
-						&& p1.panier.get(i).getPrix() == p2.panier.get(k).getPrix()) {
-						if (it != p2.panier.get(k)) {
-							it = p1.panier.get(i);
-						}
-						resultat = true;
-						if (it == p2.panier.get(k)) {
-							resultat = false;	
+			final int count = p1.panier.size();
+			if (count ==  p2.panier.size()) {
+				// duplicate p2 content
+				final ArrayList<Orange> content = new ArrayList<Orange>(p2.panier);
+				Orange o2;
+				Iterator<Orange> iter;
+				for (Orange o1 : p1.panier) {
+					iter = content.iterator();
+					while (iter.hasNext()) {
+						o2 = iter.next();
+						if (o1.getOrigine().equals(o2.getOrigine())
+								&& (o1.getPrix() == o2.getPrix())) {
+							iter.remove();
+							break;
 						}
 					}
 				}
+				resultat = content.isEmpty();
 			}
 		}
 		return resultat;
