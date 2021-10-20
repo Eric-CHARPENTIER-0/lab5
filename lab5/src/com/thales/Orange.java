@@ -15,7 +15,7 @@ public class Orange {
 	}
 	public void setPrix(final double aPrix) {
 		if (prix < 0) {
-			throw new RuntimeException("Le prix ne peut pas etre negatif");
+			throw new IllegalArgumentException("Le prix ne peut pas etre negatif");
 		} else {
 			prix = aPrix;
 		}
